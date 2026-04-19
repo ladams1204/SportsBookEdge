@@ -10,7 +10,8 @@ An NBA and NHL prediction system built from scratch to identify betting edges ag
 - ✅ **Session 4** — First XGBoost model trained. Test RMSE 8.81 vs baseline 9.11 (small edge). SHAP analysis identified opponent-based features as the key gap.  
 - 🚧 **Session 5** — Add opponent defensive rating, pace, teammate availability. Retrain. Target test R² > 0.20.  
 - ✅ **Session 6** — Integrated The Odds API. Compared model predictions vs sportsbook lines across 4 playoff games, 24 players. Built paper-trading log for honest backtesting.
-- 🚧 **Session 7** — Analyze paper-trade results after 30+ games. Quantify model hit rate vs. book closing lines.
+- ✅ **Session 7** — Built full Streamlit dashboard with 4 interactive pages: Overview, Today's Picks, Player Explorer, Performance Tracker. Deployed via ngrok for live sharing.
+- 🚧 **Session 8** — Analyze paper-trade results, iterate on features.
 
 - Python (pandas, numpy, scikit-learn, xgboost)
 - SQLite for local data persistence
